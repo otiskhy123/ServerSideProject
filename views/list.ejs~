@@ -1,0 +1,17 @@
+
+<head>
+<title>Create</title>
+</head>
+
+<section>
+<H1 align="center"></H1>
+
+All the restaurant:
+
+<script type='text/javascript'>
+  var rows =<%-JSON.stringify(data)%>
+</script>
+
+</section>
+</body>
+</html>

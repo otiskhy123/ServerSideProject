@@ -1,0 +1,22 @@
+var mongoose = require('mongoose');
+
+
+
+
+
+
+
+
+
+
+
+
+var kittySchema = mongoose.Schema({
+	_id: {type:Number, default:getNextSequenceValue("restaurantid")},
+	name: String,
+	cuisine: String
+});
+
+
+
+module.exports = kittySchema;
